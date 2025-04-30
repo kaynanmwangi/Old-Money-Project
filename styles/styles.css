@@ -208,17 +208,7 @@ footer h3 {
   text-align: center;
   justify-content: space-between;
 }
-.banger a {
-  text-decoration: none;
-  color: #333;
-  border: 1px solid #333 ;
 
-}
-.banger a:hover {
-  background-color: #D4AF37;
-  text-decoration: underline;
-  border-color: #D4AF37;
-}
 
 
 
