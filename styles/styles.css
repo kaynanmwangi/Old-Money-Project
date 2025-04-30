@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -6,14 +5,13 @@
     
   }
   body {
-    background: linear-gradient(to bottom, #F5F5DC, #FAF0E6)
-
+     background-color: #FDFDF5;
   }
 
   .hero-section {
     height: 85vh;
     width: 100%;
-    background-image: url('https://www.housedigest.com/img/gallery/how-to-achieve-the-old-money-aesthetic-in-your-backyard/choose-quality-over-quantity-1734635287.jpg') ;
+    background-image: url("https://pbs.twimg.com/media/BjVVFuIIYAEbGxS.jpg:large");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -22,7 +20,7 @@
     text-align: center;
     color: #FFD700;
     position: relative;
-    margin-top: 4.5%;
+    margin-top: 1%;
     margin-bottom: 3%;
     border: 3px solid #D4AF37;
     object-fit: cover;
@@ -90,8 +88,7 @@ display: flex;
 justify-content: space-around;
 margin-top: 5px;
 padding: 5px;
-background: #1B263B;
-
+background-image: url("https://img.freepik.com/free-photo/wet-monstera-deliciosa-plant-leaves-garden_53876-139814.jpg?semt=ais_hybrid&w=740");
 
 }
 .navigation a {
@@ -101,9 +98,9 @@ color: #FFD700;
 .introduction {
 text-align: center;
 margin-top: 5px;
-color: #333;
+color: #FFD700;
 font-family: serif 'Times New Roman', Times, serif;
-
+ background-image: url("https://images.unsplash.com/photo-1723962381764-36f6384885f9?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8b2xkJTIwbW9uZXklMjBhZXN0aGV0aWN8ZW58MHx8MHx8fDA%3D"); 
 }
 img {
 width: 400px;
@@ -147,6 +144,77 @@ transition: color 0.3s;
 color: #D4AF37;
 text-decoration: underline;
 } 
+
+.featurescontainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-right: 30px;
+  margin-left: 30px;
+  background-image: url("https://golf-pass.brightspotcdn.com/dims4/default/8c29195/2147483647/strip/true/crop/1200x774+120+0/resize/930x600!/format/webp/quality/90/?url=https%3A%2F%2Fgolf-pass-brightspot.s3.amazonaws.com%2Fd6%2F00%2F8616a3319c024e304889c5ac408f%2F117544.jpg");
+
+
+
+}
+
+.featurecard {
+  border: 2px solid  #D4AF37 ;
+  text-align: center;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  padding: 30px;
+  width: 450px;
+
+
+}
+.featurecard a {
+  text-decoration: none;
+  color: #D4AF37;
+  margin-top: 10px;
+  border: 1px solid #D4AF37 ;
+  padding: 2px;
+  border-radius: 3px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.featurecard a:hover {
+  color: #D4AF37;
+  text-decoration: underline;
+  background-color: #333;
+}
+.featurecard:hover {
+  transform: scale(1.05);
+}
+
+.featurecard img {
+  width: 350px;
+  margin-top: 15%;
+  object-fit: cover;
+}
+
+footer h3 {
+  color: #D4AF37;
+  text-align: center;
+  margin: 7%;
+}
+
+.banger {
+  /* border: 2px solid #D4AF37; */
+  border-radius: 3PX;
+  text-align: center;
+  justify-content: space-between;
+}
+.banger a {
+  text-decoration: none;
+  color: #D4AF37;
+  border: 1px solid #D4AF37 ;
+
+}
+.banger a:hover {
+  background-color: #1B263B;
+  text-decoration: underline;
+}
+
 
 
 
