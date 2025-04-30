@@ -100,7 +100,11 @@ text-align: center;
 margin-top: 5px;
 color: #FFD700;
 font-family: serif 'Times New Roman', Times, serif;
- background-image: url("https://images.unsplash.com/photo-1723962381764-36f6384885f9?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8b2xkJTIwbW9uZXklMjBhZXN0aGV0aWN8ZW58MHx8MHx8fDA%3D"); 
+ animation: fadeIn 1.5s ease-in forwards;
+}
+header {
+  background-image: url("https://images.unsplash.com/photo-1723962381764-36f6384885f9?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8b2xkJTIwbW9uZXklMjBhZXN0aGV0aWN8ZW58MHx8MHx8fDA%3D");
+
 }
 img {
 width: 400px;
@@ -120,11 +124,12 @@ margin-top: 0%;
 display: none;
 position: absolute;
 list-style: none;
-background-color: white;
+background-color: #333;
 border-radius: 10px;
 margin: 0px;
 padding: 0px;
 font-weight: bold;
+z-index: 1000;
 }
 
 .dropdown:hover .dropdownmenu {
@@ -169,18 +174,19 @@ text-decoration: underline;
 }
 .featurecard a {
   text-decoration: none;
-  color: #D4AF37;
+  color: #333;
   margin-top: 10px;
   border: 1px solid #D4AF37 ;
   padding: 2px;
   border-radius: 3px;
   transition: background-color 0.3s ease, color 0.3s ease;
+
 }
 
 .featurecard a:hover {
-  color: #D4AF37;
+  color: #333;
   text-decoration: underline;
-  background-color: #333;
+  background-color: #D4AF37;
 }
 .featurecard:hover {
   transform: scale(1.05);
@@ -199,20 +205,19 @@ footer h3 {
 }
 
 .banger {
-  /* border: 2px solid #D4AF37; */
-  border-radius: 3PX;
   text-align: center;
   justify-content: space-between;
 }
 .banger a {
   text-decoration: none;
-  color: #D4AF37;
-  border: 1px solid #D4AF37 ;
+  color: #333;
+  border: 1px solid #333 ;
 
 }
 .banger a:hover {
-  background-color: #1B263B;
+  background-color: #D4AF37;
   text-decoration: underline;
+  border-color: #D4AF37;
 }
 
 
