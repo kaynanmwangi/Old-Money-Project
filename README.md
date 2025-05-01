@@ -49,6 +49,7 @@ Video interviews with historians, curators, and descendants of prominent familie
 * No additional dependencies or servers are required.  
 * Ensure JavaScript is enabled for interactive features like the quiz and local storage.  
 * For development, you can use a live server (e.g., VS Code’s Live Server extension) for real-time previews.
+* Vercel link: https://vercel.com/kaynan-mwangi-kurarus-projects/old-money-project
 
 ## Known Bugs
 
