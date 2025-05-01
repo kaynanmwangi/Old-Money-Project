@@ -1,3 +1,16 @@
 body {
     background: linear-gradient(to bottom, #F5F5DC, #FAF0E6);
   }
+img {
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+
+}
+#rockfeller {
+  width: 300px;
+  height: 330px;
+  object-fit: cover;
+
+
+}
