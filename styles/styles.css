@@ -201,12 +201,16 @@ text-decoration: underline;
 footer h3 {
   color: #D4AF37;
   text-align: center;
-  margin: 7%;
 }
 
 .banger {
   text-align: center;
   justify-content: space-between;
+}
+footer {
+  margin: 3%;
+  text-align: center;
+
 }
 
 
